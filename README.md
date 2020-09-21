@@ -1,3 +1,14 @@
+# Convention 
+
+`Controller` => `Views Folder` => `Static Folder` (must match controller name) => `hello_world.html.erb` == `def hello_world end`    
+
+
+Blake A Long 8 MINUTES AGO
+One thing here is that by convention Rails will go from your controller into your views file and first look for a folder of the same name as the controller THEN look for a file name that matches an action from that controller
+User avatar
+Blake A Long 8 MINUTES AGO
+So you view needs to be nested inside of a folder named static
+
 # Rails Hello World Lab
 
 In this lab you will integrate a static route so that the application will render a "Hello World" page.
